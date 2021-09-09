@@ -1,3 +1,7 @@
+:root {
+  --drawer-mid-size: 264px;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    position: fixed;
+    overflow: hidden;
+  }
 }
